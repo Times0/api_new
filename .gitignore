@@ -1,0 +1,10 @@
+*.egg-info
+.venv
+debug_logs
+.python-version
+__pycache__
+.pytest_cache
+.run
+.vscode
+.idea
+uv.lock

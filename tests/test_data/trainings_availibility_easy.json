@@ -1,0 +1,225 @@
+{
+  "activities": [
+    {
+      "id": "ACTIVITY#998a3ac7-edad-44c1-8ae0-515730a2004a",
+      "workstationId": "WORKSTATION#5a880b95-4622-481f-af8f-31d26a57ebcb",
+      "constraintData": {
+        "expectedNbWorker": 1,
+        "skillLevelRequirements": [],
+        "strainLevel": null
+      },
+      "startDateTime": "2023-06-22T13:00:00.000Z",
+      "endDateTime": "2023-06-22T19:15:00.000Z"
+    }
+  ],
+  "workers": [
+    {
+      "id": "WORKER#aa4be902-816e-4650-8499-04e022868349",
+      "name": "Valentin LACOSTE"
+    }
+  ],
+  "options": {
+    "constraints": {
+      "spreadWorkers": {
+        "weight": 0.0,
+        "constraintData": null
+      },
+      "localization": {
+        "weight": 0.0,
+        "constraintData": {}
+      },
+      "preAssignedWorkers": {
+        "weight": 0.0,
+        "constraintData": {
+          "ACTIVITY#998a3ac7-edad-44c1-8ae0-515730a2004a": []
+        }
+      },
+      "availability": {
+        "weight": 0.0,
+        "constraintData": {}
+      },
+      "workerLocalization": {
+        "weight": 0.0,
+        "constraintData": null
+      },
+      "skillLevels": {
+        "weight": 0.0,
+        "constraintData": {
+          "WORKER#aa4be902-816e-4650-8499-04e022868349": {
+            "WORKSTATION#4209417a-ea63-4513-8387-3b868344735b": "LEVEL1",
+            "WORKSTATION#570b833c-7ae3-415e-aba4-8c1b56131b47": "LEVEL1",
+            "WORKSTATION#a1c5379a-80de-4ac0-b4e2-b14715605282": "LEVEL1",
+            "WORKSTATION#e35da409-7b92-4fc1-acdc-a754d9bb6804": "LEVEL0",
+            "WORKSTATION#306a72b9-b7b3-4696-b6f1-e62920e74b4a": "LEVEL0",
+            "WORKSTATION#d68a1f40-d21d-482f-9420-37430b221496": "LEVEL0",
+            "WORKSTATION#81541b47-04a7-451c-b548-fa0e5ccadb8c": "LEVEL0",
+            "WORKSTATION#666b32b5-7295-4293-ade7-ec7b7ccb9e2f": "LEVEL1",
+            "WORKSTATION#eb75bea9-c2b9-4656-bde9-b62746ae7243": "LEVEL0",
+            "WORKSTATION#aa18be85-61a2-4eb3-ab58-d14a0fb5a8b0": "LEVEL1",
+            "WORKSTATION#3979919c-aa7c-4c48-ba0d-209a2e9aa721": "LEVEL0",
+            "WORKSTATION#f2275659-fa3a-45b7-8dee-7bf74827aed9": "LEVEL1",
+            "WORKSTATION#ed8de97b-a09c-4ce4-aa9b-2e35226d5e9f": "LEVEL3",
+            "WORKSTATION#175b9abc-389b-4f31-b59c-9dfbe485082b": "LEVEL0",
+            "WORKSTATION#245ce0dd-0fc5-4507-baa4-22ad19eda382": "LEVEL3",
+            "WORKSTATION#15ec62e7-3c0f-48be-9991-f50543b40929": "LEVEL3",
+            "WORKSTATION#1653fc1e-3794-4371-953b-0e9d302b1825": "LEVEL1",
+            "WORKSTATION#7584e3eb-5d97-4a4f-8418-67268ec8ec33": "LEVEL1",
+            "WORKSTATION#d0822094-3fc8-438a-93ba-6df6b301933d": "LEVEL1",
+            "WORKSTATION#a5864549-1636-4700-8319-78464876fd97": "LEVEL0",
+            "WORKSTATION#d11bba67-5b76-49b2-bb6a-e6d1fdc6e180": "LEVEL0",
+            "WORKSTATION#3f493b21-b511-4c6f-90a6-4c245bcc87d8": "LEVEL1",
+            "WORKSTATION#197a3f1e-61b9-4e59-b2b3-452c2fab2226": "LEVEL1",
+            "WORKSTATION#222ef104-bfb7-4007-9fd8-5dc69921e13e": "LEVEL0",
+            "WORKSTATION#eebbc66f-bfae-4703-88fb-3b7e64fdc95e": "LEVEL2",
+            "WORKSTATION#fd3b5137-b7ec-491a-be9e-616a69e58eda": "LEVEL3",
+            "WORKSTATION#9ebb12c4-8527-4b5f-b14f-a0e5c4305576": "LEVEL1",
+            "WORKSTATION#dcdbd1da-5de1-4b5e-9e61-2acc9d73035a": "LEVEL0",
+            "WORKSTATION#6cd279f4-7df4-47ce-9484-21385a4868e7": "LEVEL2",
+            "WORKSTATION#ee8d194c-9fe5-45f4-9a7d-855a6c3da06f": "LEVEL1",
+            "WORKSTATION#f65fd621-fa5b-4110-99fb-5910a3e1af82": "LEVEL0",
+            "WORKSTATION#602d0c18-ef3e-4134-a236-368fff1828d8": "LEVEL0",
+            "WORKSTATION#fbf41b7c-b293-40a8-8eb2-319574220859": "LEVEL3",
+            "WORKSTATION#1b961661-c381-41f8-a198-f1e0c7eae982": "LEVEL0",
+            "WORKSTATION#7525448c-64e0-4632-a0e9-1ffd51c1dcc4": "LEVEL0",
+            "WORKSTATION#3bf59dbd-be1c-4cfa-b4a5-52f01a831283": "LEVEL1",
+            "WORKSTATION#7c7d5e08-b448-4994-9209-ea45c27f1c39": "LEVEL2",
+            "WORKSTATION#afb60d3f-58d6-461b-9ac0-3047488c1cfe": "LEVEL1",
+            "WORKSTATION#f57d9e43-7882-4f63-a605-e79f0cae212d": "LEVEL0",
+            "WORKSTATION#f99c3cc7-1197-405a-9462-493056ab114a": "LEVEL1",
+            "WORKSTATION#3fe614c9-d88b-4bb5-83c0-50210d875447": "LEVEL2",
+            "WORKSTATION#f76e6026-6cf3-4c05-abce-37cf4092bf5f": "LEVEL0",
+            "WORKSTATION#46df7cdd-51ad-41a4-8fc5-a23ca872d6e4": "LEVEL3",
+            "WORKSTATION#d50c2c1b-3166-4195-a0a3-f2dbc3cb4464": "LEVEL0",
+            "WORKSTATION#eb5e0e7f-1e58-452d-8f04-a4a3379258e2": "LEVEL3",
+            "WORKSTATION#1ab3ec71-1f02-47e6-826c-45d2dbf6e96a": "LEVEL1",
+            "WORKSTATION#b4039291-dd9a-465d-baf2-b52d7eea80f9": "LEVEL3",
+            "WORKSTATION#49cf587d-d027-418e-a61a-48b2b5fc7934": "LEVEL2",
+            "WORKSTATION#ae8dd90e-749b-4879-a1c0-f5690c5e4baa": "LEVEL1",
+            "WORKSTATION#a1018acc-f5e9-467c-afc3-f8d703398cde": "LEVEL0",
+            "WORKSTATION#543b50d3-147d-4275-a8fb-741d7e912172": "LEVEL1",
+            "WORKSTATION#d3d941d1-e950-46fb-8aa8-a4db827f191f": "LEVEL3",
+            "WORKSTATION#17b19d0f-d9db-4df3-b93e-f2417c8e13d9": "LEVEL3",
+            "WORKSTATION#65e7cdba-7b88-46e4-afd2-f3c814e763ab": "LEVEL1",
+            "WORKSTATION#56de10f1-d8bc-46f0-a067-1048a12a16a3": "LEVEL0",
+            "WORKSTATION#d7d110c3-acbb-4f28-9c8d-0c24b3bf54cc": "LEVEL1",
+            "WORKSTATION#c3bc7b29-ae61-4320-be93-b532ecf1ef31": "LEVEL0",
+            "WORKSTATION#d947bf0e-3145-4b91-ac1e-37bc3a40887c": "LEVEL1",
+            "WORKSTATION#7ed316d6-8ba3-4c9d-bb46-eee3f817f0fb": "LEVEL1",
+            "WORKSTATION#569159df-845a-4a13-839c-e1ea07f4e4c5": "LEVEL1",
+            "WORKSTATION#fbaff792-9af7-4590-b218-a6f4bf533704": "LEVEL1",
+            "WORKSTATION#27eb10ef-5a98-4b66-9e25-385f58d09a93": "LEVEL1",
+            "WORKSTATION#543b16a6-3d1b-495e-9d02-ece2e1855157": "LEVEL0",
+            "WORKSTATION#3b500c0c-b3d2-447a-838b-ef4dc0e98a53": "LEVEL1",
+            "WORKSTATION#2ea2943a-e65e-448f-a372-048373b43ee6": "LEVEL0",
+            "WORKSTATION#c977b994-4bd8-43d5-ad5e-c933d46d3b66": "LEVEL1",
+            "WORKSTATION#139beeb4-18e3-4435-96a0-c2edb31db55f": "LEVEL0",
+            "WORKSTATION#98d45372-1fda-40c6-a436-9eead6b4c4c4": "LEVEL0",
+            "WORKSTATION#24773133-cd71-4b05-b3d5-487c9e30252a": "LEVEL1",
+            "WORKSTATION#fbd1e04b-dc02-437e-8950-1994a11b003c": "LEVEL0",
+            "WORKSTATION#c76d1dc6-4ed2-4e32-968c-e96435e00051": "LEVEL0",
+            "WORKSTATION#2b9532c0-52e7-4740-a9a2-2811fcf374c1": "LEVEL0",
+            "WORKSTATION#1861dc6f-293b-415a-b69b-d6f8b1ebd209": "LEVEL1",
+            "WORKSTATION#91a66d4d-86f4-425b-8184-251da2cac080": "LEVEL1",
+            "WORKSTATION#88e0455a-6b06-4c2d-94c9-84e49438bc23": "LEVEL0",
+            "WORKSTATION#ae20b08d-573a-4a88-8773-f03ed15b7f75": "LEVEL3",
+            "WORKSTATION#f063d2a3-53af-4978-8589-39eb90044971": "LEVEL1",
+            "WORKSTATION#aee4adcb-a1ac-41e3-a064-a44c8758c647": "LEVEL0",
+            "WORKSTATION#2bca21ea-3702-40a5-b3a2-47068918930b": "LEVEL0",
+            "WORKSTATION#e3a5c409-d14c-477a-8a1b-0cd9eb591b3a": "LEVEL1",
+            "WORKSTATION#30c55c3b-460c-4a6d-9f89-ee03f506ac6f": "LEVEL0",
+            "WORKSTATION#8a1d8783-2de4-4957-aa4b-50ca00c5be1e": "LEVEL0",
+            "WORKSTATION#6ab42097-b227-4c84-b8a6-38aececcf5a6": "LEVEL0",
+            "WORKSTATION#398748b9-da19-4f75-b55e-440f4a0bd470": "LEVEL1",
+            "WORKSTATION#19a624f1-53b8-4c5d-9885-758836fc2734": "LEVEL3",
+            "WORKSTATION#9969ac51-1cf3-415b-bc50-9cc18f35f779": "LEVEL0",
+            "WORKSTATION#279e24a4-72e8-4f2e-adc9-a5f6019984b0": "LEVEL0",
+            "WORKSTATION#7058e6c9-b325-408d-b3fd-b93dd404f12e": "LEVEL1",
+            "WORKSTATION#397d1bf3-b4ed-4938-99aa-a722f7e91ff7": "LEVEL1",
+            "WORKSTATION#2d162e9b-0590-4fc6-ac79-c73e19aa0c78": "LEVEL1",
+            "WORKSTATION#730bc138-0911-40b4-a088-c3fc3f183b36": "LEVEL2",
+            "WORKSTATION#7876a772-953b-44ce-88c0-5568091eae44": "LEVEL1",
+            "WORKSTATION#bb642675-c95d-4049-9cbe-739ebc0492aa": "LEVEL0",
+            "WORKSTATION#5e775aea-c4a8-4da5-ab9f-900b94a90f58": "LEVEL1",
+            "WORKSTATION#7dbf586d-029a-4fb5-948b-1f9c4e00bab6": "LEVEL0",
+            "WORKSTATION#be2ffcf9-b3ff-4cfd-8c59-ab1092bb8e00": "LEVEL2",
+            "WORKSTATION#2270dd39-99ff-48de-be0f-f75e92393dea": "LEVEL0",
+            "WORKSTATION#ec1b3937-c877-481b-93be-b32e0f93969b": "LEVEL3",
+            "WORKSTATION#6c522697-621c-41d0-8e56-71609e0d6592": "LEVEL3",
+            "WORKSTATION#74101616-2baa-41aa-b9f9-bc89f6a955b6": "LEVEL0",
+            "WORKSTATION#8365ed34-1e9e-4554-b058-f7f7053e2666": "LEVEL1",
+            "WORKSTATION#3997855c-3e8e-47f4-bc2f-d3a841a264bd": "LEVEL1",
+            "WORKSTATION#15768962-2c75-4065-80eb-386aa51402ec": "LEVEL0",
+            "WORKSTATION#687abf99-cebe-461c-86e3-ce129d2fc12d": "LEVEL3",
+            "WORKSTATION#94edf5ab-4b46-467d-ba6b-593d6257d529": "LEVEL1",
+            "WORKSTATION#3b81126b-0551-47bc-9abc-d207e3d1cf07": "LEVEL3",
+            "WORKSTATION#3b555d03-8cdf-4c01-b563-6bfb8c87d5cb": "LEVEL2",
+            "WORKSTATION#35d55833-8c10-4852-9a59-98bc5c9b5358": "LEVEL1",
+            "WORKSTATION#e6cdf09d-04ac-4dae-b1dc-fdfbf9b6ce82": "LEVEL0",
+            "WORKSTATION#75cac269-a40e-4e43-ac4c-89ae75d278b3": "LEVEL3",
+            "WORKSTATION#3ec91cc2-c4d2-4a78-b268-181af94153e8": "LEVEL0",
+            "WORKSTATION#814e58d1-a23d-4985-a2fd-5d2143396a99": "LEVEL0",
+            "WORKSTATION#93a30029-f015-406e-98ed-6192f1fd631e": "LEVEL2",
+            "WORKSTATION#8167348b-4e97-4fee-9927-5c8dc94a6604": "LEVEL0",
+            "WORKSTATION#24020586-07d4-4a0e-b880-420491f72925": "LEVEL2",
+            "WORKSTATION#9a00872b-dd83-4717-90c1-23eebc2b231b": "LEVEL1",
+            "WORKSTATION#c6fcedb7-1985-4482-84a0-95e20a6f5fe6": "LEVEL0",
+            "WORKSTATION#76640f8b-5864-45ae-a78d-7813850c3040": "LEVEL1",
+            "WORKSTATION#d0269786-a0cc-4774-953f-e670091a9491": "LEVEL0",
+            "WORKSTATION#ed2ef38c-3970-49e9-97e9-051e12cc4f60": "LEVEL0",
+            "WORKSTATION#ed03b8b2-d0be-4b5a-9e99-4360ef845448": "LEVEL0",
+            "WORKSTATION#d52dee20-feb3-4fc3-869d-1c6df6ce2d70": "LEVEL3",
+            "WORKSTATION#ad8fcd7a-b534-4353-b09c-48421a25378d": "LEVEL2",
+            "WORKSTATION#964ab742-b2e3-4081-b0cf-1d485aba82c8": "LEVEL0",
+            "WORKSTATION#b2c2414e-0ecf-4901-bbad-cf5497279ac9": "LEVEL1",
+            "WORKSTATION#7340e5d3-620a-4d48-afbf-eaf579d543ba": "LEVEL1",
+            "WORKSTATION#7d797c37-59d3-400e-a2c3-bff1630812a1": "LEVEL0",
+            "WORKSTATION#4e74d9dd-f329-4147-b44b-48f5cef9e5a3": "LEVEL2",
+            "WORKSTATION#5b6f8bc4-bbcc-4f70-8733-b939e8390382": "LEVEL1",
+            "WORKSTATION#28db71a2-60f0-4710-80bc-60f58f8cc65c": "LEVEL1",
+            "WORKSTATION#f94f9fd4-e1a8-4b91-86ec-3ad41b0d1a4c": "LEVEL0",
+            "WORKSTATION#1a661df1-ebcb-4304-8e57-c8199988c981": "LEVEL3",
+            "WORKSTATION#5a880b95-4622-481f-af8f-31d26a57ebcb": "LEVEL2",
+            "WORKSTATION#3b06a111-ff30-484f-998c-05fb542ee03b": "LEVEL1",
+            "WORKSTATION#e69a9f59-0967-4311-8b35-1d28fbd87b1f": "LEVEL0",
+            "WORKSTATION#c279b7e1-dfe2-4ba0-91a3-6fdff8dc3d18": "LEVEL1",
+            "WORKSTATION#fe22319a-7d9d-4158-8972-cb0c2480416e": "LEVEL2",
+            "WORKSTATION#d13def79-01de-4e38-ab57-341a06120b11": "LEVEL2",
+            "WORKSTATION#753d16e4-58fa-4cec-84cb-252b4faa1b4d": "LEVEL1",
+            "WORKSTATION#1ba23bbf-e487-4c71-a06b-21e6b25f1a5b": "LEVEL1",
+            "WORKSTATION#baaae0ed-a237-4599-a5e6-f5bf28f7ff43": "LEVEL0",
+            "WORKSTATION#d7e3730c-f745-4de2-be91-69781ab092b0": "LEVEL1",
+            "WORKSTATION#d7b36f65-5146-4e03-92e0-173cf197319a": "LEVEL0",
+            "WORKSTATION#43a24dba-fa2d-48f4-99a1-f00a58d6fca9": "LEVEL0",
+            "WORKSTATION#294cc08d-f2af-47b6-bca8-75f5a93c7dfd": "LEVEL0",
+            "WORKSTATION#60a2649e-1bf6-470d-b2d1-88c627292864": "LEVEL1",
+            "WORKSTATION#f864a38a-5f1e-4fd1-ac62-55892ae4dc67": "LEVEL0",
+            "WORKSTATION#64e640fa-0708-48ad-955f-8b33e93be81f": "LEVEL1",
+            "WORKSTATION#986aee22-38de-4a7c-8ce2-71f672efb4be": "LEVEL3",
+            "WORKSTATION#0a95d5f9-765f-4a4c-8a6b-7bb703e35e8d": "LEVEL0",
+            "WORKSTATION#5a08cbd3-e742-4d49-8794-147dabb04db7": "LEVEL2"
+          }
+        }
+      },
+      "maxShiftsPerDay": {
+        "weight": 0.0,
+        "constraintData": {
+          "workerActivitiesMatrix": {},
+          "shiftTransitionMatrix": {},
+          "shiftIds": [],
+          "scheduleDays": []
+        }
+      },
+      "trainings": {
+        "weight": 100.0,
+        "constraintData": {
+          "WORKER#aa4be902-816e-4650-8499-04e022868349": [
+            {
+              "startDate": "2023-06-22T14:18:08.901Z",
+              "endDate": "2023-06-22T16:19:27.122Z"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "activities": [
+    {
+      "id": "ACTIVITY#111cd233-edef-41d7-b0a9-e991f516c634",
+      "workstationId": "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e",
+      "constraintData": {
+        "expectedNbWorker": 5,
+        "skillLevelRequirements": [],
+        "strainLevel": null
+      },
+      "startDateTime": "2025-06-06T06:45:00.000Z",
+      "endDateTime": "2025-06-06T10:15:00.000Z"
+    }
+  ],
+  "workers": [
+    {
+      "id": "WORKER#1464c46b-02f7-4933-a4f4-dcb487022c02",
+      "name": "Worker NEW CHILD ORANGE Worker NEW CHILD ORANGE"
+    },
+    {
+      "id": "WORKER#17ba9cd6-1cd2-4fa5-826b-a0a1f13a857b",
+      "name": "New worker Test"
+    },
+    {
+      "id": "WORKER#afcfcc2c-3e98-4e46-8001-d945c8c70d19",
+      "name": "Dd Dd"
+    },
+    {
+      "id": "WORKER#024de54f-e370-4e02-8b46-e0bc16e90905",
+      "name": "WorkerInvite1 WorkerInvite1"
+    },
+    {
+      "id": "WORKER#1ca75c88-acd6-4830-8d7d-a4600b3813f7",
+      "name": "Monstor Kuttan"
+    },
+    {
+      "id": "WORKER#f5ad6a48-0a75-4f75-b12a-d94fe9240ffb",
+      "name": "Ii Ii"
+    },
+    {
+      "id": "WORKER#41b719a2-6696-4a39-af45-8f9498b5c4a4",
+      "name": "F F"
+    },
+    {
+      "id": "WORKER#ed71b4cd-59cb-472a-b820-801af321e9a1",
+      "name": "Ee Ee"
+    }
+  ],
+  "options": {
+    "constraints": {
+      "spreadWorkers": {
+        "weight": 0.0,
+        "constraintData": null
+      },
+      "legalHours": {
+        "weight": 0.0,
+        "constraintData": {
+          "workingHoursDay": 8,
+          "workingHoursWeek": 40,
+          "restHoursWeek": 0,
+          "weeklyActivities": []
+        }
+      },
+      "maxShiftsPerDay": {
+        "weight": 0.0,
+        "constraintData": {
+          "workerActivitiesMatrix": {},
+          "shiftTransitionMatrix": {},
+          "shiftIds": [],
+          "scheduleDays": []
+        }
+      },
+      "localization": {
+        "weight": 0.0,
+        "constraintData": {
+          "WORKER#1464c46b-02f7-4933-a4f4-dcb487022c02": {
+            "WORKSTATION#e39fa6fd-5c65-433d-9491-d89de2a08022": true,
+            "WORKSTATION#e2e6d25d-2970-485c-8aad-e9ffd1cde1c3": true,
+            "WORKSTATION#e1efc243-49e3-4ade-b6bd-e90ccdabec29": true,
+            "WORKSTATION#e2fd3ca7-1979-4940-ad24-789311a4f74f": true,
+            "WORKSTATION#e25384f1-04b3-4671-823c-28581021f958": true,
+            "WORKSTATION#e2e12156-f1d5-4a31-b900-7621d70fc1f5": true,
+            "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e": true
+          },
+          "WORKER#17ba9cd6-1cd2-4fa5-826b-a0a1f13a857b": {
+            "WORKSTATION#e39fa6fd-5c65-433d-9491-d89de2a08022": true,
+            "WORKSTATION#e2e6d25d-2970-485c-8aad-e9ffd1cde1c3": true,
+            "WORKSTATION#e1efc243-49e3-4ade-b6bd-e90ccdabec29": true,
+            "WORKSTATION#e2fd3ca7-1979-4940-ad24-789311a4f74f": true,
+            "WORKSTATION#e25384f1-04b3-4671-823c-28581021f958": true,
+            "WORKSTATION#e2e12156-f1d5-4a31-b900-7621d70fc1f5": true,
+            "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e": true
+          },
+          "WORKER#afcfcc2c-3e98-4e46-8001-d945c8c70d19": {
+            "WORKSTATION#e39fa6fd-5c65-433d-9491-d89de2a08022": true,
+            "WORKSTATION#e2e6d25d-2970-485c-8aad-e9ffd1cde1c3": true,
+            "WORKSTATION#e1efc243-49e3-4ade-b6bd-e90ccdabec29": true,
+            "WORKSTATION#e2fd3ca7-1979-4940-ad24-789311a4f74f": true,
+            "WORKSTATION#e25384f1-04b3-4671-823c-28581021f958": true,
+            "WORKSTATION#e2e12156-f1d5-4a31-b900-7621d70fc1f5": true,
+            "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e": true
+          },
+          "WORKER#024de54f-e370-4e02-8b46-e0bc16e90905": {
+            "WORKSTATION#e39fa6fd-5c65-433d-9491-d89de2a08022": true,
+            "WORKSTATION#e2e6d25d-2970-485c-8aad-e9ffd1cde1c3": true,
+            "WORKSTATION#e1efc243-49e3-4ade-b6bd-e90ccdabec29": true,
+            "WORKSTATION#e2fd3ca7-1979-4940-ad24-789311a4f74f": true,
+            "WORKSTATION#e25384f1-04b3-4671-823c-28581021f958": true,
+            "WORKSTATION#e2e12156-f1d5-4a31-b900-7621d70fc1f5": true,
+            "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e": true
+          },
+          "WORKER#1ca75c88-acd6-4830-8d7d-a4600b3813f7": {
+            "WORKSTATION#e39fa6fd-5c65-433d-9491-d89de2a08022": true,
+            "WORKSTATION#e2e6d25d-2970-485c-8aad-e9ffd1cde1c3": true,
+            "WORKSTATION#e1efc243-49e3-4ade-b6bd-e90ccdabec29": true,
+            "WORKSTATION#e2fd3ca7-1979-4940-ad24-789311a4f74f": true,
+            "WORKSTATION#e25384f1-04b3-4671-823c-28581021f958": true,
+            "WORKSTATION#e2e12156-f1d5-4a31-b900-7621d70fc1f5": true,
+            "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e": true
+          },
+          "WORKER#f5ad6a48-0a75-4f75-b12a-d94fe9240ffb": {
+            "WORKSTATION#e39fa6fd-5c65-433d-9491-d89de2a08022": true,
+            "WORKSTATION#e2e6d25d-2970-485c-8aad-e9ffd1cde1c3": true,
+            "WORKSTATION#e1efc243-49e3-4ade-b6bd-e90ccdabec29": true,
+            "WORKSTATION#e2fd3ca7-1979-4940-ad24-789311a4f74f": true,
+            "WORKSTATION#e25384f1-04b3-4671-823c-28581021f958": true,
+            "WORKSTATION#e2e12156-f1d5-4a31-b900-7621d70fc1f5": true,
+            "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e": true
+          },
+          "WORKER#41b719a2-6696-4a39-af45-8f9498b5c4a4": {
+            "WORKSTATION#e39fa6fd-5c65-433d-9491-d89de2a08022": false,
+            "WORKSTATION#e2e6d25d-2970-485c-8aad-e9ffd1cde1c3": false,
+            "WORKSTATION#e1efc243-49e3-4ade-b6bd-e90ccdabec29": false,
+            "WORKSTATION#e2fd3ca7-1979-4940-ad24-789311a4f74f": false,
+            "WORKSTATION#e25384f1-04b3-4671-823c-28581021f958": false,
+            "WORKSTATION#e2e12156-f1d5-4a31-b900-7621d70fc1f5": false,
+            "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e": false
+          },
+          "WORKER#ed71b4cd-59cb-472a-b820-801af321e9a1": {
+            "WORKSTATION#e39fa6fd-5c65-433d-9491-d89de2a08022": true,
+            "WORKSTATION#e2e6d25d-2970-485c-8aad-e9ffd1cde1c3": true,
+            "WORKSTATION#e1efc243-49e3-4ade-b6bd-e90ccdabec29": true,
+            "WORKSTATION#e2fd3ca7-1979-4940-ad24-789311a4f74f": true,
+            "WORKSTATION#e25384f1-04b3-4671-823c-28581021f958": true,
+            "WORKSTATION#e2e12156-f1d5-4a31-b900-7621d70fc1f5": true,
+            "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e": true
+          }
+        }
+      },
+      "preAssignedWorkers": {
+        "weight": 0.0,
+        "constraintData": {
+          "ACTIVITY#111cd233-edef-41d7-b0a9-e991f516c634": []
+        }
+      },
+      "availability": {
+        "weight": 0.0,
+        "constraintData": {}
+      },
+      "workerLocalization": {
+        "weight": 0.0,
+        "constraintData": null
+      },
+      "skillLevels": {
+        "weight": 0.0,
+        "constraintData": {
+          "WORKER#1464c46b-02f7-4933-a4f4-dcb487022c02": {
+            "WORKSTATION#e39fa6fd-5c65-433d-9491-d89de2a08022": "LEVEL0",
+            "WORKSTATION#e2e6d25d-2970-485c-8aad-e9ffd1cde1c3": "LEVEL0",
+            "WORKSTATION#e1efc243-49e3-4ade-b6bd-e90ccdabec29": "LEVEL0",
+            "WORKSTATION#e2fd3ca7-1979-4940-ad24-789311a4f74f": "LEVEL0",
+            "WORKSTATION#e25384f1-04b3-4671-823c-28581021f958": "LEVEL0",
+            "WORKSTATION#e2e12156-f1d5-4a31-b900-7621d70fc1f5": "LEVEL0",
+            "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e": "LEVEL0"
+          },
+          "WORKER#17ba9cd6-1cd2-4fa5-826b-a0a1f13a857b": {
+            "WORKSTATION#e39fa6fd-5c65-433d-9491-d89de2a08022": "LEVEL0",
+            "WORKSTATION#e2e6d25d-2970-485c-8aad-e9ffd1cde1c3": "LEVEL0",
+            "WORKSTATION#e1efc243-49e3-4ade-b6bd-e90ccdabec29": "LEVEL0",
+            "WORKSTATION#e2fd3ca7-1979-4940-ad24-789311a4f74f": "LEVEL0",
+            "WORKSTATION#e25384f1-04b3-4671-823c-28581021f958": "LEVEL0",
+            "WORKSTATION#e2e12156-f1d5-4a31-b900-7621d70fc1f5": "LEVEL0",
+            "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e": "LEVEL0"
+          },
+          "WORKER#afcfcc2c-3e98-4e46-8001-d945c8c70d19": {
+            "WORKSTATION#e39fa6fd-5c65-433d-9491-d89de2a08022": "LEVEL0",
+            "WORKSTATION#e2e6d25d-2970-485c-8aad-e9ffd1cde1c3": "LEVEL0",
+            "WORKSTATION#e1efc243-49e3-4ade-b6bd-e90ccdabec29": "LEVEL0",
+            "WORKSTATION#e2fd3ca7-1979-4940-ad24-789311a4f74f": "LEVEL0",
+            "WORKSTATION#e25384f1-04b3-4671-823c-28581021f958": "LEVEL0",
+            "WORKSTATION#e2e12156-f1d5-4a31-b900-7621d70fc1f5": "LEVEL0",
+            "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e": "LEVEL0"
+          },
+          "WORKER#024de54f-e370-4e02-8b46-e0bc16e90905": {
+            "WORKSTATION#e39fa6fd-5c65-433d-9491-d89de2a08022": "LEVEL0",
+            "WORKSTATION#e2e6d25d-2970-485c-8aad-e9ffd1cde1c3": "LEVEL0",
+            "WORKSTATION#e1efc243-49e3-4ade-b6bd-e90ccdabec29": "LEVEL0",
+            "WORKSTATION#e2fd3ca7-1979-4940-ad24-789311a4f74f": "LEVEL0",
+            "WORKSTATION#e25384f1-04b3-4671-823c-28581021f958": "LEVEL0",
+            "WORKSTATION#e2e12156-f1d5-4a31-b900-7621d70fc1f5": "LEVEL0",
+            "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e": "LEVEL0"
+          },
+          "WORKER#1ca75c88-acd6-4830-8d7d-a4600b3813f7": {
+            "WORKSTATION#e39fa6fd-5c65-433d-9491-d89de2a08022": "LEVEL0",
+            "WORKSTATION#e2e6d25d-2970-485c-8aad-e9ffd1cde1c3": "LEVEL0",
+            "WORKSTATION#e1efc243-49e3-4ade-b6bd-e90ccdabec29": "LEVEL0",
+            "WORKSTATION#e2fd3ca7-1979-4940-ad24-789311a4f74f": "LEVEL0",
+            "WORKSTATION#e25384f1-04b3-4671-823c-28581021f958": "LEVEL0",
+            "WORKSTATION#e2e12156-f1d5-4a31-b900-7621d70fc1f5": "LEVEL0",
+            "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e": "LEVEL0"
+          },
+          "WORKER#f5ad6a48-0a75-4f75-b12a-d94fe9240ffb": {
+            "WORKSTATION#e39fa6fd-5c65-433d-9491-d89de2a08022": "LEVEL0",
+            "WORKSTATION#e2e6d25d-2970-485c-8aad-e9ffd1cde1c3": "LEVEL0",
+            "WORKSTATION#e1efc243-49e3-4ade-b6bd-e90ccdabec29": "LEVEL0",
+            "WORKSTATION#e2fd3ca7-1979-4940-ad24-789311a4f74f": "LEVEL0",
+            "WORKSTATION#e25384f1-04b3-4671-823c-28581021f958": "LEVEL0",
+            "WORKSTATION#e2e12156-f1d5-4a31-b900-7621d70fc1f5": "LEVEL0",
+            "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e": "LEVEL0"
+          },
+          "WORKER#41b719a2-6696-4a39-af45-8f9498b5c4a4": {
+            "WORKSTATION#e39fa6fd-5c65-433d-9491-d89de2a08022": "LEVEL0",
+            "WORKSTATION#e2e6d25d-2970-485c-8aad-e9ffd1cde1c3": "LEVEL0",
+            "WORKSTATION#e1efc243-49e3-4ade-b6bd-e90ccdabec29": "LEVEL0",
+            "WORKSTATION#e2fd3ca7-1979-4940-ad24-789311a4f74f": "LEVEL0",
+            "WORKSTATION#e25384f1-04b3-4671-823c-28581021f958": "LEVEL0",
+            "WORKSTATION#e2e12156-f1d5-4a31-b900-7621d70fc1f5": "LEVEL0",
+            "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e": "LEVEL0"
+          },
+          "WORKER#ed71b4cd-59cb-472a-b820-801af321e9a1": {
+            "WORKSTATION#e39fa6fd-5c65-433d-9491-d89de2a08022": "LEVEL0",
+            "WORKSTATION#e2e6d25d-2970-485c-8aad-e9ffd1cde1c3": "LEVEL0",
+            "WORKSTATION#e1efc243-49e3-4ade-b6bd-e90ccdabec29": "LEVEL0",
+            "WORKSTATION#e2fd3ca7-1979-4940-ad24-789311a4f74f": "LEVEL0",
+            "WORKSTATION#e25384f1-04b3-4671-823c-28581021f958": "LEVEL0",
+            "WORKSTATION#e2e12156-f1d5-4a31-b900-7621d70fc1f5": "LEVEL0",
+            "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e": "LEVEL0"
+          }
+        }
+      },
+      "trainings": {
+        "weight": 0.0,
+        "constraintData": {}
+      }
+    }
+  }
+}

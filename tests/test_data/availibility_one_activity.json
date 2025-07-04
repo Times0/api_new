@@ -1,0 +1,77 @@
+{
+  "activities": [
+    {
+      "id": "ACTIVITY#320cf991-3a91-4563-b5e1-4c9857074697",
+      "workstationId": "WORKSTATION#d0822094-3fc8-438a-93ba-6df6b301933d",
+      "constraintData": {
+        "expectedNbWorker": 2,
+        "skillLevelRequirements": [],
+        "strainLevel": null
+      },
+      "startDateTime": "2024-06-13T04:00:00.000Z",
+      "endDateTime": "2024-06-13T12:00:00.000Z"
+    }
+  ],
+  "workers": [
+    {
+      "id": "WORKER#6a0d9c38-b81a-4118-b0ee-c4e4561bc6a0",
+      "name": "K\u00e9vin CAMPAGNE"
+    }
+  ],
+  "options": {
+    "constraints": {
+      "spreadWorkers": {
+        "weight": 0.0,
+        "constraintData": null
+      },
+      "legalHours": {
+        "weight": 0.0,
+        "constraintData": {
+          "workingHoursDay": 8,
+          "workingHoursWeek": 40,
+          "restHoursWeek": 0,
+          "weeklyActivities": []
+        }
+      },
+      "localization": {
+        "weight": 0.0,
+        "constraintData": {}
+      },
+      "preAssignedWorkers": {
+        "weight": 0.0,
+        "constraintData": {}
+      },
+      "availability": {
+        "weight": 100.0,
+        "constraintData": {
+          "WORKER#6a0d9c38-b81a-4118-b0ee-c4e4561bc6a0": ["2024-06-13"]
+        }
+      },
+      "workerLocalization": {
+        "weight": 0.0,
+        "constraintData": null
+      },
+      "skillLevels": {
+        "weight": 0.0,
+        "constraintData": {
+          "WORKER#6a0d9c38-b81a-4118-b0ee-c4e4561bc6a0": {
+            "WORKSTATION#d0822094-3fc8-438a-93ba-6df6b301933d": "LEVEL0"
+          }
+        }
+      },
+      "maxShiftsPerDay": {
+        "weight": 0.0,
+        "constraintData": {
+          "workerActivitiesMatrix": {},
+          "shiftTransitionMatrix": {},
+          "shiftIds": [],
+          "scheduleDays": []
+        }
+      },
+      "trainings": {
+        "weight": 0.0,
+        "constraintData": {}
+      }
+    }
+  }
+}

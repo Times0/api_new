@@ -1,0 +1,690 @@
+{
+  "activities": [
+    {
+      "id": "ACTIVITY#5fdd944e-ae70-494f-b330-31d7516e7a31",
+      "workstationId": "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e",
+      "constraintData": {
+        "expectedNbWorker": 8,
+        "skillLevelRequirements": [],
+        "strainLevel": null
+      },
+      "startDateTime": "2025-06-15T20:00:00.000Z",
+      "endDateTime": "2025-06-16T04:00:00.000Z"
+    },
+    {
+      "id": "ACTIVITY#21948053-597d-4f56-a371-318fce4129f5",
+      "workstationId": "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e",
+      "constraintData": {
+        "expectedNbWorker": 8,
+        "skillLevelRequirements": [],
+        "strainLevel": null
+      },
+      "startDateTime": "2025-06-16T04:00:00.000Z",
+      "endDateTime": "2025-06-16T12:00:00.000Z"
+    },
+    {
+      "id": "ACTIVITY#6e61d307-83ed-428f-a926-a7e2f8222274",
+      "workstationId": "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e",
+      "constraintData": {
+        "expectedNbWorker": 8,
+        "skillLevelRequirements": [],
+        "strainLevel": null
+      },
+      "startDateTime": "2025-06-16T12:00:00.000Z",
+      "endDateTime": "2025-06-16T20:00:00.000Z"
+    },
+    {
+      "id": "ACTIVITY#a6b04b56-4194-43d8-a449-414549b39f71",
+      "workstationId": "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e",
+      "constraintData": {
+        "expectedNbWorker": 8,
+        "skillLevelRequirements": [],
+        "strainLevel": null
+      },
+      "startDateTime": "2025-06-16T20:00:00.000Z",
+      "endDateTime": "2025-06-17T03:45:00.000Z"
+    }
+  ],
+  "workers": [
+    {
+      "id": "WORKER#41b719a2-6696-4a39-af45-8f9498b5c4a4",
+      "name": "F F"
+    },
+    {
+      "id": "WORKER#024de54f-e370-4e02-8b46-e0bc16e90905",
+      "name": "WorkerInvite1 WorkerInvite1"
+    },
+    {
+      "id": "WORKER#17ba9cd6-1cd2-4fa5-826b-a0a1f13a857b",
+      "name": "New worker Test"
+    },
+    {
+      "id": "WORKER#afcfcc2c-3e98-4e46-8001-d945c8c70d19",
+      "name": "Dd Dd"
+    },
+    {
+      "id": "WORKER#f5ad6a48-0a75-4f75-b12a-d94fe9240ffb",
+      "name": "Ii Ii"
+    },
+    {
+      "id": "WORKER#ed71b4cd-59cb-472a-b820-801af321e9a1",
+      "name": "Ee Ee"
+    },
+    {
+      "id": "WORKER#1464c46b-02f7-4933-a4f4-dcb487022c02",
+      "name": "Worker NEW CHILD ORANGE Worker NEW CHILD ORANGE"
+    },
+    {
+      "id": "WORKER#1ca75c88-acd6-4830-8d7d-a4600b3813f7",
+      "name": "Monstor Kuttan"
+    }
+  ],
+  "options": {
+    "constraints": {
+      "spreadWorkers": {
+        "weight": 0.0,
+        "constraintData": null
+      },
+      "legalHours": {
+        "weight": 0.0,
+        "constraintData": {
+          "workingHoursDay": 8,
+          "workingHoursWeek": 40,
+          "restHoursWeek": 0,
+          "weeklyActivities": [
+            {
+              "id": "ACTIVITY#5fdd944e-ae70-494f-b330-31d7516e7a31",
+              "workstationId": "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e",
+              "constraintData": {
+                "expectedNbWorker": 8,
+                "skillLevelRequirements": [],
+                "strainLevel": null
+              },
+              "startDateTime": "2025-06-15T20:00:00.000Z",
+              "endDateTime": "2025-06-16T04:00:00.000Z"
+            }
+          ]
+        }
+      },
+      "localization": {
+        "weight": 0.0,
+        "constraintData": {
+          "WORKER#41b719a2-6696-4a39-af45-8f9498b5c4a4": {
+            "WORKSTATION#e39fa6fd-5c65-433d-9491-d89de2a08022": false,
+            "WORKSTATION#e2e6d25d-2970-485c-8aad-e9ffd1cde1c3": false,
+            "WORKSTATION#e1efc243-49e3-4ade-b6bd-e90ccdabec29": false,
+            "WORKSTATION#e2fd3ca7-1979-4940-ad24-789311a4f74f": false,
+            "WORKSTATION#e25384f1-04b3-4671-823c-28581021f958": false,
+            "WORKSTATION#e2e12156-f1d5-4a31-b900-7621d70fc1f5": false,
+            "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e": false
+          },
+          "WORKER#024de54f-e370-4e02-8b46-e0bc16e90905": {
+            "WORKSTATION#e39fa6fd-5c65-433d-9491-d89de2a08022": true,
+            "WORKSTATION#e2e6d25d-2970-485c-8aad-e9ffd1cde1c3": true,
+            "WORKSTATION#e1efc243-49e3-4ade-b6bd-e90ccdabec29": true,
+            "WORKSTATION#e2fd3ca7-1979-4940-ad24-789311a4f74f": true,
+            "WORKSTATION#e25384f1-04b3-4671-823c-28581021f958": true,
+            "WORKSTATION#e2e12156-f1d5-4a31-b900-7621d70fc1f5": true,
+            "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e": true
+          },
+          "WORKER#17ba9cd6-1cd2-4fa5-826b-a0a1f13a857b": {
+            "WORKSTATION#e39fa6fd-5c65-433d-9491-d89de2a08022": true,
+            "WORKSTATION#e2e6d25d-2970-485c-8aad-e9ffd1cde1c3": true,
+            "WORKSTATION#e1efc243-49e3-4ade-b6bd-e90ccdabec29": true,
+            "WORKSTATION#e2fd3ca7-1979-4940-ad24-789311a4f74f": true,
+            "WORKSTATION#e25384f1-04b3-4671-823c-28581021f958": true,
+            "WORKSTATION#e2e12156-f1d5-4a31-b900-7621d70fc1f5": true,
+            "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e": true
+          },
+          "WORKER#afcfcc2c-3e98-4e46-8001-d945c8c70d19": {
+            "WORKSTATION#e39fa6fd-5c65-433d-9491-d89de2a08022": true,
+            "WORKSTATION#e2e6d25d-2970-485c-8aad-e9ffd1cde1c3": true,
+            "WORKSTATION#e1efc243-49e3-4ade-b6bd-e90ccdabec29": true,
+            "WORKSTATION#e2fd3ca7-1979-4940-ad24-789311a4f74f": true,
+            "WORKSTATION#e25384f1-04b3-4671-823c-28581021f958": true,
+            "WORKSTATION#e2e12156-f1d5-4a31-b900-7621d70fc1f5": true,
+            "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e": true
+          },
+          "WORKER#f5ad6a48-0a75-4f75-b12a-d94fe9240ffb": {
+            "WORKSTATION#e39fa6fd-5c65-433d-9491-d89de2a08022": true,
+            "WORKSTATION#e2e6d25d-2970-485c-8aad-e9ffd1cde1c3": true,
+            "WORKSTATION#e1efc243-49e3-4ade-b6bd-e90ccdabec29": true,
+            "WORKSTATION#e2fd3ca7-1979-4940-ad24-789311a4f74f": true,
+            "WORKSTATION#e25384f1-04b3-4671-823c-28581021f958": true,
+            "WORKSTATION#e2e12156-f1d5-4a31-b900-7621d70fc1f5": true,
+            "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e": true
+          },
+          "WORKER#ed71b4cd-59cb-472a-b820-801af321e9a1": {
+            "WORKSTATION#e39fa6fd-5c65-433d-9491-d89de2a08022": true,
+            "WORKSTATION#e2e6d25d-2970-485c-8aad-e9ffd1cde1c3": true,
+            "WORKSTATION#e1efc243-49e3-4ade-b6bd-e90ccdabec29": true,
+            "WORKSTATION#e2fd3ca7-1979-4940-ad24-789311a4f74f": true,
+            "WORKSTATION#e25384f1-04b3-4671-823c-28581021f958": true,
+            "WORKSTATION#e2e12156-f1d5-4a31-b900-7621d70fc1f5": true,
+            "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e": true
+          },
+          "WORKER#1464c46b-02f7-4933-a4f4-dcb487022c02": {
+            "WORKSTATION#e39fa6fd-5c65-433d-9491-d89de2a08022": true,
+            "WORKSTATION#e2e6d25d-2970-485c-8aad-e9ffd1cde1c3": true,
+            "WORKSTATION#e1efc243-49e3-4ade-b6bd-e90ccdabec29": true,
+            "WORKSTATION#e2fd3ca7-1979-4940-ad24-789311a4f74f": true,
+            "WORKSTATION#e25384f1-04b3-4671-823c-28581021f958": true,
+            "WORKSTATION#e2e12156-f1d5-4a31-b900-7621d70fc1f5": true,
+            "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e": true
+          },
+          "WORKER#1ca75c88-acd6-4830-8d7d-a4600b3813f7": {
+            "WORKSTATION#e39fa6fd-5c65-433d-9491-d89de2a08022": true,
+            "WORKSTATION#e2e6d25d-2970-485c-8aad-e9ffd1cde1c3": true,
+            "WORKSTATION#e1efc243-49e3-4ade-b6bd-e90ccdabec29": true,
+            "WORKSTATION#e2fd3ca7-1979-4940-ad24-789311a4f74f": true,
+            "WORKSTATION#e25384f1-04b3-4671-823c-28581021f958": true,
+            "WORKSTATION#e2e12156-f1d5-4a31-b900-7621d70fc1f5": true,
+            "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e": true
+          }
+        }
+      },
+      "preAssignedWorkers": {
+        "weight": 0.0,
+        "constraintData": {
+          "ACTIVITY#5fdd944e-ae70-494f-b330-31d7516e7a31": [],
+          "ACTIVITY#21948053-597d-4f56-a371-318fce4129f5": [],
+          "ACTIVITY#6e61d307-83ed-428f-a926-a7e2f8222274": [],
+          "ACTIVITY#a6b04b56-4194-43d8-a449-414549b39f71": []
+        }
+      },
+      "availability": {
+        "weight": 0.0,
+        "constraintData": {}
+      },
+      "workerLocalization": {
+        "weight": 0.0,
+        "constraintData": null
+      },
+      "skillLevels": {
+        "weight": 0.0,
+        "constraintData": {
+          "WORKER#41b719a2-6696-4a39-af45-8f9498b5c4a4": {
+            "WORKSTATION#e39fa6fd-5c65-433d-9491-d89de2a08022": "LEVEL0",
+            "WORKSTATION#e2e6d25d-2970-485c-8aad-e9ffd1cde1c3": "LEVEL0",
+            "WORKSTATION#e1efc243-49e3-4ade-b6bd-e90ccdabec29": "LEVEL0",
+            "WORKSTATION#e2fd3ca7-1979-4940-ad24-789311a4f74f": "LEVEL0",
+            "WORKSTATION#e25384f1-04b3-4671-823c-28581021f958": "LEVEL0",
+            "WORKSTATION#e2e12156-f1d5-4a31-b900-7621d70fc1f5": "LEVEL0",
+            "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e": "LEVEL0"
+          },
+          "WORKER#024de54f-e370-4e02-8b46-e0bc16e90905": {
+            "WORKSTATION#e39fa6fd-5c65-433d-9491-d89de2a08022": "LEVEL0",
+            "WORKSTATION#e2e6d25d-2970-485c-8aad-e9ffd1cde1c3": "LEVEL0",
+            "WORKSTATION#e1efc243-49e3-4ade-b6bd-e90ccdabec29": "LEVEL0",
+            "WORKSTATION#e2fd3ca7-1979-4940-ad24-789311a4f74f": "LEVEL0",
+            "WORKSTATION#e25384f1-04b3-4671-823c-28581021f958": "LEVEL0",
+            "WORKSTATION#e2e12156-f1d5-4a31-b900-7621d70fc1f5": "LEVEL0",
+            "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e": "LEVEL0"
+          },
+          "WORKER#17ba9cd6-1cd2-4fa5-826b-a0a1f13a857b": {
+            "WORKSTATION#e39fa6fd-5c65-433d-9491-d89de2a08022": "LEVEL0",
+            "WORKSTATION#e2e6d25d-2970-485c-8aad-e9ffd1cde1c3": "LEVEL0",
+            "WORKSTATION#e1efc243-49e3-4ade-b6bd-e90ccdabec29": "LEVEL0",
+            "WORKSTATION#e2fd3ca7-1979-4940-ad24-789311a4f74f": "LEVEL0",
+            "WORKSTATION#e25384f1-04b3-4671-823c-28581021f958": "LEVEL0",
+            "WORKSTATION#e2e12156-f1d5-4a31-b900-7621d70fc1f5": "LEVEL0",
+            "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e": "LEVEL0"
+          },
+          "WORKER#afcfcc2c-3e98-4e46-8001-d945c8c70d19": {
+            "WORKSTATION#e39fa6fd-5c65-433d-9491-d89de2a08022": "LEVEL0",
+            "WORKSTATION#e2e6d25d-2970-485c-8aad-e9ffd1cde1c3": "LEVEL0",
+            "WORKSTATION#e1efc243-49e3-4ade-b6bd-e90ccdabec29": "LEVEL0",
+            "WORKSTATION#e2fd3ca7-1979-4940-ad24-789311a4f74f": "LEVEL0",
+            "WORKSTATION#e25384f1-04b3-4671-823c-28581021f958": "LEVEL0",
+            "WORKSTATION#e2e12156-f1d5-4a31-b900-7621d70fc1f5": "LEVEL0",
+            "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e": "LEVEL0"
+          },
+          "WORKER#f5ad6a48-0a75-4f75-b12a-d94fe9240ffb": {
+            "WORKSTATION#e39fa6fd-5c65-433d-9491-d89de2a08022": "LEVEL0",
+            "WORKSTATION#e2e6d25d-2970-485c-8aad-e9ffd1cde1c3": "LEVEL0",
+            "WORKSTATION#e1efc243-49e3-4ade-b6bd-e90ccdabec29": "LEVEL0",
+            "WORKSTATION#e2fd3ca7-1979-4940-ad24-789311a4f74f": "LEVEL0",
+            "WORKSTATION#e25384f1-04b3-4671-823c-28581021f958": "LEVEL0",
+            "WORKSTATION#e2e12156-f1d5-4a31-b900-7621d70fc1f5": "LEVEL0",
+            "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e": "LEVEL0"
+          },
+          "WORKER#ed71b4cd-59cb-472a-b820-801af321e9a1": {
+            "WORKSTATION#e39fa6fd-5c65-433d-9491-d89de2a08022": "LEVEL0",
+            "WORKSTATION#e2e6d25d-2970-485c-8aad-e9ffd1cde1c3": "LEVEL0",
+            "WORKSTATION#e1efc243-49e3-4ade-b6bd-e90ccdabec29": "LEVEL0",
+            "WORKSTATION#e2fd3ca7-1979-4940-ad24-789311a4f74f": "LEVEL0",
+            "WORKSTATION#e25384f1-04b3-4671-823c-28581021f958": "LEVEL0",
+            "WORKSTATION#e2e12156-f1d5-4a31-b900-7621d70fc1f5": "LEVEL0",
+            "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e": "LEVEL0"
+          },
+          "WORKER#1464c46b-02f7-4933-a4f4-dcb487022c02": {
+            "WORKSTATION#e39fa6fd-5c65-433d-9491-d89de2a08022": "LEVEL0",
+            "WORKSTATION#e2e6d25d-2970-485c-8aad-e9ffd1cde1c3": "LEVEL0",
+            "WORKSTATION#e1efc243-49e3-4ade-b6bd-e90ccdabec29": "LEVEL0",
+            "WORKSTATION#e2fd3ca7-1979-4940-ad24-789311a4f74f": "LEVEL0",
+            "WORKSTATION#e25384f1-04b3-4671-823c-28581021f958": "LEVEL0",
+            "WORKSTATION#e2e12156-f1d5-4a31-b900-7621d70fc1f5": "LEVEL0",
+            "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e": "LEVEL0"
+          },
+          "WORKER#1ca75c88-acd6-4830-8d7d-a4600b3813f7": {
+            "WORKSTATION#e39fa6fd-5c65-433d-9491-d89de2a08022": "LEVEL0",
+            "WORKSTATION#e2e6d25d-2970-485c-8aad-e9ffd1cde1c3": "LEVEL0",
+            "WORKSTATION#e1efc243-49e3-4ade-b6bd-e90ccdabec29": "LEVEL0",
+            "WORKSTATION#e2fd3ca7-1979-4940-ad24-789311a4f74f": "LEVEL0",
+            "WORKSTATION#e25384f1-04b3-4671-823c-28581021f958": "LEVEL0",
+            "WORKSTATION#e2e12156-f1d5-4a31-b900-7621d70fc1f5": "LEVEL0",
+            "WORKSTATION#f98848f7-4af0-41fb-a836-94e1735fab8e": "LEVEL0"
+          }
+        }
+      },
+      "maxShiftsPerDay": {
+        "weight": 100.0,
+        "constraintData": {
+          "workerActivitiesMatrix": {
+            "WORKER#41b719a2-6696-4a39-af45-8f9498b5c4a4": [
+              [],
+              [],
+              [
+                {
+                  "activityId": "ACTIVITY#5fdd944e-ae70-494f-b330-31d7516e7a31",
+                  "shiftId": "WORKINGSHIFT#d96670f7-9d01-48f3-af82-50fe251eebc1"
+                }
+              ],
+              [
+                {
+                  "activityId": "ACTIVITY#21948053-597d-4f56-a371-318fce4129f5",
+                  "shiftId": "WORKINGSHIFT#c9e2d67a-2e2c-4e51-b9c4-139981c8f242"
+                }
+              ],
+              [
+                {
+                  "activityId": "ACTIVITY#6e61d307-83ed-428f-a926-a7e2f8222274",
+                  "shiftId": "WORKINGSHIFT#96078fe7-9899-4358-bdca-12f24d49d38e"
+                }
+              ],
+              [
+                {
+                  "activityId": "ACTIVITY#a6b04b56-4194-43d8-a449-414549b39f71",
+                  "shiftId": "WORKINGSHIFT#d96670f7-9d01-48f3-af82-50fe251eebc1"
+                }
+              ],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            "WORKER#024de54f-e370-4e02-8b46-e0bc16e90905": [
+              [],
+              [],
+              [
+                {
+                  "activityId": "ACTIVITY#5fdd944e-ae70-494f-b330-31d7516e7a31",
+                  "shiftId": "WORKINGSHIFT#d96670f7-9d01-48f3-af82-50fe251eebc1"
+                }
+              ],
+              [
+                {
+                  "activityId": "ACTIVITY#21948053-597d-4f56-a371-318fce4129f5",
+                  "shiftId": "WORKINGSHIFT#c9e2d67a-2e2c-4e51-b9c4-139981c8f242"
+                }
+              ],
+              [
+                {
+                  "activityId": "ACTIVITY#6e61d307-83ed-428f-a926-a7e2f8222274",
+                  "shiftId": "WORKINGSHIFT#96078fe7-9899-4358-bdca-12f24d49d38e"
+                }
+              ],
+              [
+                {
+                  "activityId": "ACTIVITY#a6b04b56-4194-43d8-a449-414549b39f71",
+                  "shiftId": "WORKINGSHIFT#d96670f7-9d01-48f3-af82-50fe251eebc1"
+                }
+              ],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            "WORKER#17ba9cd6-1cd2-4fa5-826b-a0a1f13a857b": [
+              [],
+              [],
+              [
+                {
+                  "activityId": "ACTIVITY#5fdd944e-ae70-494f-b330-31d7516e7a31",
+                  "shiftId": "WORKINGSHIFT#d96670f7-9d01-48f3-af82-50fe251eebc1"
+                }
+              ],
+              [
+                {
+                  "activityId": "ACTIVITY#21948053-597d-4f56-a371-318fce4129f5",
+                  "shiftId": "WORKINGSHIFT#c9e2d67a-2e2c-4e51-b9c4-139981c8f242"
+                }
+              ],
+              [
+                {
+                  "activityId": "ACTIVITY#6e61d307-83ed-428f-a926-a7e2f8222274",
+                  "shiftId": "WORKINGSHIFT#96078fe7-9899-4358-bdca-12f24d49d38e"
+                }
+              ],
+              [
+                {
+                  "activityId": "ACTIVITY#a6b04b56-4194-43d8-a449-414549b39f71",
+                  "shiftId": "WORKINGSHIFT#d96670f7-9d01-48f3-af82-50fe251eebc1"
+                }
+              ],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            "WORKER#afcfcc2c-3e98-4e46-8001-d945c8c70d19": [
+              [],
+              [],
+              [
+                {
+                  "activityId": "ACTIVITY#5fdd944e-ae70-494f-b330-31d7516e7a31",
+                  "shiftId": "WORKINGSHIFT#d96670f7-9d01-48f3-af82-50fe251eebc1"
+                }
+              ],
+              [
+                {
+                  "activityId": "ACTIVITY#21948053-597d-4f56-a371-318fce4129f5",
+                  "shiftId": "WORKINGSHIFT#c9e2d67a-2e2c-4e51-b9c4-139981c8f242"
+                }
+              ],
+              [
+                {
+                  "activityId": "ACTIVITY#6e61d307-83ed-428f-a926-a7e2f8222274",
+                  "shiftId": "WORKINGSHIFT#96078fe7-9899-4358-bdca-12f24d49d38e"
+                }
+              ],
+              [
+                {
+                  "activityId": "ACTIVITY#a6b04b56-4194-43d8-a449-414549b39f71",
+                  "shiftId": "WORKINGSHIFT#d96670f7-9d01-48f3-af82-50fe251eebc1"
+                }
+              ],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            "WORKER#f5ad6a48-0a75-4f75-b12a-d94fe9240ffb": [
+              [],
+              [],
+              [
+                {
+                  "activityId": "ACTIVITY#5fdd944e-ae70-494f-b330-31d7516e7a31",
+                  "shiftId": "WORKINGSHIFT#d96670f7-9d01-48f3-af82-50fe251eebc1"
+                }
+              ],
+              [
+                {
+                  "activityId": "ACTIVITY#21948053-597d-4f56-a371-318fce4129f5",
+                  "shiftId": "WORKINGSHIFT#c9e2d67a-2e2c-4e51-b9c4-139981c8f242"
+                }
+              ],
+              [
+                {
+                  "activityId": "ACTIVITY#6e61d307-83ed-428f-a926-a7e2f8222274",
+                  "shiftId": "WORKINGSHIFT#96078fe7-9899-4358-bdca-12f24d49d38e"
+                }
+              ],
+              [
+                {
+                  "activityId": "ACTIVITY#a6b04b56-4194-43d8-a449-414549b39f71",
+                  "shiftId": "WORKINGSHIFT#d96670f7-9d01-48f3-af82-50fe251eebc1"
+                }
+              ],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            "WORKER#ed71b4cd-59cb-472a-b820-801af321e9a1": [
+              [],
+              [],
+              [
+                {
+                  "activityId": "ACTIVITY#5fdd944e-ae70-494f-b330-31d7516e7a31",
+                  "shiftId": "WORKINGSHIFT#d96670f7-9d01-48f3-af82-50fe251eebc1"
+                }
+              ],
+              [
+                {
+                  "activityId": "ACTIVITY#21948053-597d-4f56-a371-318fce4129f5",
+                  "shiftId": "WORKINGSHIFT#c9e2d67a-2e2c-4e51-b9c4-139981c8f242"
+                }
+              ],
+              [
+                {
+                  "activityId": "ACTIVITY#6e61d307-83ed-428f-a926-a7e2f8222274",
+                  "shiftId": "WORKINGSHIFT#96078fe7-9899-4358-bdca-12f24d49d38e"
+                }
+              ],
+              [
+                {
+                  "activityId": "ACTIVITY#a6b04b56-4194-43d8-a449-414549b39f71",
+                  "shiftId": "WORKINGSHIFT#d96670f7-9d01-48f3-af82-50fe251eebc1"
+                }
+              ],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            "WORKER#1464c46b-02f7-4933-a4f4-dcb487022c02": [
+              [],
+              [],
+              [
+                {
+                  "activityId": "ACTIVITY#5fdd944e-ae70-494f-b330-31d7516e7a31",
+                  "shiftId": "WORKINGSHIFT#d96670f7-9d01-48f3-af82-50fe251eebc1"
+                }
+              ],
+              [
+                {
+                  "activityId": "ACTIVITY#21948053-597d-4f56-a371-318fce4129f5",
+                  "shiftId": "WORKINGSHIFT#c9e2d67a-2e2c-4e51-b9c4-139981c8f242"
+                }
+              ],
+              [
+                {
+                  "activityId": "ACTIVITY#6e61d307-83ed-428f-a926-a7e2f8222274",
+                  "shiftId": "WORKINGSHIFT#96078fe7-9899-4358-bdca-12f24d49d38e"
+                }
+              ],
+              [
+                {
+                  "activityId": "ACTIVITY#a6b04b56-4194-43d8-a449-414549b39f71",
+                  "shiftId": "WORKINGSHIFT#d96670f7-9d01-48f3-af82-50fe251eebc1"
+                }
+              ],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            "WORKER#1ca75c88-acd6-4830-8d7d-a4600b3813f7": [
+              [],
+              [],
+              [
+                {
+                  "activityId": "ACTIVITY#5fdd944e-ae70-494f-b330-31d7516e7a31",
+                  "shiftId": "WORKINGSHIFT#d96670f7-9d01-48f3-af82-50fe251eebc1"
+                }
+              ],
+              [
+                {
+                  "activityId": "ACTIVITY#21948053-597d-4f56-a371-318fce4129f5",
+                  "shiftId": "WORKINGSHIFT#c9e2d67a-2e2c-4e51-b9c4-139981c8f242"
+                }
+              ],
+              [
+                {
+                  "activityId": "ACTIVITY#6e61d307-83ed-428f-a926-a7e2f8222274",
+                  "shiftId": "WORKINGSHIFT#96078fe7-9899-4358-bdca-12f24d49d38e"
+                }
+              ],
+              [
+                {
+                  "activityId": "ACTIVITY#a6b04b56-4194-43d8-a449-414549b39f71",
+                  "shiftId": "WORKINGSHIFT#d96670f7-9d01-48f3-af82-50fe251eebc1"
+                }
+              ],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ]
+          },
+          "shiftTransitionMatrix": {
+            "WORKINGSHIFT#c9e2d67a-2e2c-4e51-b9c4-139981c8f242": {
+              "WORKINGSHIFT#96078fe7-9899-4358-bdca-12f24d49d38e": false,
+              "WORKINGSHIFT#d96670f7-9d01-48f3-af82-50fe251eebc1": false
+            },
+            "WORKINGSHIFT#96078fe7-9899-4358-bdca-12f24d49d38e": {
+              "WORKINGSHIFT#c9e2d67a-2e2c-4e51-b9c4-139981c8f242": false,
+              "WORKINGSHIFT#d96670f7-9d01-48f3-af82-50fe251eebc1": false
+            },
+            "WORKINGSHIFT#d96670f7-9d01-48f3-af82-50fe251eebc1": {
+              "WORKINGSHIFT#c9e2d67a-2e2c-4e51-b9c4-139981c8f242": false,
+              "WORKINGSHIFT#96078fe7-9899-4358-bdca-12f24d49d38e": false
+            }
+          },
+          "shiftIds": [
+            "WORKINGSHIFT#c9e2d67a-2e2c-4e51-b9c4-139981c8f242",
+            "WORKINGSHIFT#96078fe7-9899-4358-bdca-12f24d49d38e",
+            "WORKINGSHIFT#d96670f7-9d01-48f3-af82-50fe251eebc1"
+          ],
+          "scheduleDays": [
+            "2025-06-15T10:14:48.573Z",
+            "2025-06-16T10:14:48.573Z",
+            "2025-06-17T10:14:48.573Z",
+            "2025-06-18T10:14:48.573Z",
+            "2025-06-19T10:14:48.573Z",
+            "2025-06-20T10:14:48.573Z",
+            "2025-06-21T10:14:48.573Z",
+            "2025-06-22T10:14:48.573Z"
+          ]
+        }
+      },
+      "trainings": {
+        "weight": 0.0,
+        "constraintData": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "activities": [
+    {
+      "id": "A1",
+      "workstationId": "WS4",
+      "constraintData": {
+        "expectedNbWorker": 3,
+        "skillLevelRequirements": [],
+        "strainLevel": null
+      },
+      "startDateTime": "2025-05-01T08:00:00",
+      "endDateTime": "2025-05-01T09:00:00"
+    }
+  ],
+  "workers": [
+    {
+      "id": "W4",
+      "name": "Dana"
+    },
+    {
+      "id": "W5",
+      "name": "Eli"
+    }
+  ],
+  "options": {
+    "constraints": {
+      "spreadWorkers": {
+        "weight": 0.0,
+        "constraintData": null
+      },
+      "legalHours": {
+        "weight": 0.0,
+        "constraintData": null
+      },
+      "maxShiftsPerDay": {
+        "weight": 0.0,
+        "constraintData": {
+          "workerActivitiesMatrix": {},
+          "shiftTransitionMatrix": {},
+          "shiftIds": [],
+          "scheduleDays": []
+        }
+      },
+      "availability": {
+        "weight": 0.0,
+        "constraintData": {}
+      },
+      "skillLevels": {
+        "weight": 0.0,
+        "constraintData": null
+      },
+      "preAssignedWorkers": {
+        "weight": 0.0,
+        "constraintData": {}
+      },
+      "workerLocalization": {
+        "weight": 0.0,
+        "constraintData": null
+      },
+      "localization": {
+        "weight": 0.0,
+        "constraintData": {}
+      },
+      "trainings": {
+        "weight": 0.0,
+        "constraintData": {}
+      }
+    }
+  }
+}
